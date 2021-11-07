@@ -1,0 +1,47 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://images.unsplash.com/photo-1578961771886-97d51aee46bc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=716&q=80);
+    height: 95vh;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    font-family:'Sedgwick Ave Display', cursive;;
+}
+
+h1{
+    font-size: 3rem;
+    margin: 1rem;
+    color: rgb(211, 151, 39);
+    text-align: center;
+}
+
+.key{
+    display: flex;
+}
+
+.keys{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2rem;
+    color: papayawhip;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid rgb(211, 151, 39);
+    border-radius: 10px;
+    transition: all 0.07s;
+    text-align: center;
+}
+
+.playing{
+    transform: scale(1.1);
+    border-color: rgb(255, 166, 0);
+    box-shadow: 0 0 10px rgb(255, 166, 0);
+}
+
+.sound{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
